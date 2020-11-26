@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-links": "^6.0.28",
+    "@storybook/react": "^6.0.28",
+    "@storybook/storybook-deployer": "^2.8.7",
+    "babel-loader": "^8.1.0",
+    "lerna": "^3.22.1",
+    "react-is": "^17.0.1"
+  },
+  "peerdependencies": {
+    "d3": "^6.2.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006 --no-dll",
+    "build-storybook": "build-storybook --no-dll",
+    "deploy-storybook": "storybook-to-ghpages"
+  }
+}

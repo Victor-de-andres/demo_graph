@@ -1,0 +1,23 @@
+{
+  "name": "reactbutton",
+  "version": "0.1.0",
+  "private": true,
+  "description": "test",
+  "keywords": [
+    "test"
+  ],
+  "author": "victor_deandres <victor.deandres@gmail.com>",
+  "homepage": "http://test",
+  "license": "ISC",
+  "main": "lib/reactButton.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
